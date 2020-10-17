@@ -7,6 +7,11 @@ app.get('/',(req,res)=>{
     res.send('Hi')
 })
 
+app.get('/another',(req,res)=>{
+
+    res.send('New route')
+})
+
 app.listen(process.env.port,()=>{
 
 
